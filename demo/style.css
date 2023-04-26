@@ -1,0 +1,45 @@
+.bold {
+    font-weight: bold;
+}
+
+/* 스타일을 적용할 ID 선택자 */
+#red-text {
+    color: red;
+}
+
+/* 자손 선택자 */
+.container p {
+    font-size: 18px;
+}
+
+/* 후손 선택자 */
+.container > div {
+    background-color: #f0f0f0;
+}
+
+/* 인접 형제 선택자 */
+h2 + p {
+    font-style: italic;
+    color: crimson;
+}
+
+/* 일반 형제 선택자 */
+ul ~ p {
+    font-style: italic;
+}
+
+.overflow-box ~ p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+}
+/* 속성 선택자 */
+input[type="text"] {
+    background-color: #e8f0fe;
+}
+
+/* 가상 클래스 선택자 */
+a:hover {
+    color: blue;
+}
